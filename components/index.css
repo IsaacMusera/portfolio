@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eef2ff; /* Light blue background */
+}
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to navbar */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #7c3aed;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.btn-primary {
+    background-color: #7c3aed;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5b23b5;
+}
