@@ -1,19 +1,13 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #eef2ff; /* Light blue background */
 }
 
-.navbar {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to navbar */
-}
-
-h1 {
+.hero h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
-p {
+.hero p {
     font-size: 1.25rem;
     margin-bottom: 20px;
 }
@@ -28,11 +22,45 @@ img {
     border-radius: 15px;
 }
 
-.btn-primary {
-    background-color: #7c3aed;
-    border: none;
+/* Case Studies */
+.case-studies h2 {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-.btn-primary:hover {
-    background-color: #5b23b5;
+.case-studies p {
+    color: #666;
+}
+
+.case-studies .badge {
+    font-size: 0.85rem;
+}
+
+/* Testimonials */
+.testimonials h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.testimonials p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.testimonial {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.testimonial p {
+    margin-bottom: 0.5rem;
+}
+
+.testimonial .fw-bold {
+    color: #ffd700;
+}
+
+.fas.fa-quote-left {
+    color: #ffd700;
 }
