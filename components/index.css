@@ -1,7 +1,9 @@
+/* General Body Styles */
 body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Hero Section */
 .hero h1 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -16,13 +18,69 @@ body {
     color: #7c3aed;
 }
 
+/* Image Styling */
 img {
     max-width: 100%;
     height: auto;
     border-radius: 15px;
 }
 
-/* Case Studies */
+/* Recent Work Section */
+.recent-work {
+    text-align: center;
+    padding: 50px;
+}
+
+.recent-work h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.recent-work p {
+    color: #888;
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+
+.work-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.work-item {
+    width: 45%;
+    text-align: left;
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.work-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.work-item p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ECC40;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Case Studies Section */
 .case-studies h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -36,7 +94,13 @@ img {
     font-size: 0.85rem;
 }
 
-/* Testimonials */
+/* Testimonials Section */
+.testimonials {
+    background-color: #111;
+    padding: 50px;
+    color: #fff;
+}
+
 .testimonials h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -51,6 +115,8 @@ img {
 .testimonial {
     background-color: #333;
     border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .testimonial p {
@@ -63,4 +129,70 @@ img {
 
 .fas.fa-quote-left {
     color: #ffd700;
+}
+
+/* Get In Touch Section */
+.contact {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ECC40;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #27AE60;
 }
